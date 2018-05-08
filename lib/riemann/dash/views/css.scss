@@ -52,7 +52,7 @@ html,table {
   left: 3px;
   right: 3px;
   font-size: 12px;
- 
+
   input {
     background: $off-white;
     border: 1px solid $dark-grey;
@@ -303,6 +303,10 @@ html,table {
   height: 0;
   width: 0;
   overflow: hidden;
+}
+
+.container {
+  overflow: scroll;
 }
 
 .focusOverlay {
